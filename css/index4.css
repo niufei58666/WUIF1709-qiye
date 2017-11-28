@@ -1,0 +1,209 @@
+body,input{
+	padding: 0;
+	margin: 0;
+}
+a,span,input{
+	display: block;
+	text-decoration: none;
+}
+.box{
+	width: 100%;
+	height: 48px;
+
+	overflow: hidden;	
+}
+.box .logo{
+	width: 195px;
+	height: 48px;
+	margin: 14px 0 0 83px;
+	background-image: url(../img/logo.png);
+	background-size: 195px 48px;
+	float: left;
+	margin-top: 0;
+}
+.box .navo{
+	width: 786px;
+	height: 44px;
+	margin: 16px 75px 0 0;
+	float: right;
+	text-align: right;
+	line-height: 44px;
+}
+.box .navo a{
+	width: 70px;
+	height: 44px;
+	padding: 0 20px;
+	color: #000;
+    font-size: 16px;
+    line-height: 44px;
+    text-align: center;
+	float: right;
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-top: -10px;
+	transition: all .4s;
+}
+.box .navo a:hover{
+	color: red;
+   	text-decoration: underline;
+	float: right;
+	transition: all 1s linear;
+
+}
+.box .navo a span{
+	width: 110px;
+	height: 187px;
+	background: #fff;
+	color: #000;
+    font-size: 16px;
+    line-height: 44px;
+    position: absolute;
+    top: 44px;
+    right: 0;
+    display: none;
+    transition: all 1s linear;
+
+}
+.box .navo a:hover span{
+	display: block;
+	transition-delay:5s;
+}
+.box .navo .top2{
+	width: 569px;
+	height: 59px;
+	
+}
+.box1{
+	width: 1150px;
+	height: 300px;
+	margin: 30px auto;
+}
+.box1 .boxa{
+	width: 555px;
+	height: 256px;
+	float:left;
+}
+.box1 .boxa span{
+	width: 300px;
+	height: 19px;
+	font-size: 18px;
+	color: #666;
+	margin: 10px 0;
+}
+.box1 .boxa .text{
+	width: 100%;
+	height: 34px;
+	margin: 10px 0 30px;
+}
+.box1 .boxb{
+	width: 555px;
+	height: 246px;
+	float:right;
+}
+.box1 .boxb span{
+	width: 300px;
+	height: 19px;
+	font-size: 18px;
+	color: #666;
+	margin: 10px 0;
+}
+.box1 .boxb .text{
+	width: 100%;
+	height: 228px;
+	margin: 10px 0 10px;
+}
+.box1 .boxb a{
+	width: 96px;
+	height: 37px;
+	border: 1px solid #000;
+	border-radius: 96px;
+	font-size: 18px;
+	color: #666;
+
+	text-align: center;
+	line-height: 37px;
+	float: right;
+}
+.weibu{
+	width: 100%;
+	height: 413px;
+	background: #333;
+	overflow: hidden;
+}
+.weibu .boxa{
+	width: 1138px;
+	height: 195px;
+	margin: 54px auto;
+}
+.weibu .boxa .boxa-1{
+	width: 320px;
+	height: 195px;
+	float: left;
+}
+.weibu .boxa .boxa-1 h1{
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	text-align: left;	
+	margin-bottom: 25px;
+}
+.weibu .boxa .boxa-1 span{
+	font-size: 14px;
+	color: #ccc;
+	text-align: left;	
+	margin-top: 10px;
+}
+.weibu .boxa .boxa-2{
+	width: 76px;
+	height: 121px;
+	float: left;
+	margin-left: 216px;
+}
+.weibu .boxa .boxa-2 h1{
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	text-align: left;	
+	margin-bottom: 25px;
+}
+.weibu .boxa .boxa-2 span{
+	font-size: 14px;
+	color: #ccc;
+	text-align: left;	
+	margin-top: 10px;
+}
+.weibu .boxa .boxa-3{
+	width: 159px;
+	height: 176px;
+	float: right;
+}
+.weibu .boxa .boxa-3 a{
+	width: 159px;
+	height: 176px;
+	background-image: url(../img/weixin.png);
+	background-size: 159px;
+	background-repeat: no-repeat;
+	float: right;
+}
+.weibu .boxa .boxa-3 span{
+	font-size: 14px;
+	color: #ccc;
+	text-align: left;	
+}
+.weibu .n1{
+	width: 1200px;
+	height: 16px;
+	font-size: 14px;
+	color: #ccc;
+	text-align: center;
+	line-height: 16px;
+	margin: 0 auto;
+}
+.weibu .n2{
+	width: 1200px;
+	height: 24px;
+	font-size: 14px;
+	color: #ccc;
+	text-align: center;
+	line-height: 24px;
+	margin: 0 auto;
+}
